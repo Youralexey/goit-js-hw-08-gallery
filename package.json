@@ -1,0 +1,19 @@
+{
+  "name": "goit-js-hw-08-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youralexey/goit-js-hw-08-gallery.git"
+  },
+  "author": "Oleksiy Shcherbak <alex030793@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Youralexey/goit-js-hw-08-gallery/issues"
+  },
+  "homepage": "https://github.com/Youralexey/goit-js-hw-08-gallery#readme"
+}
