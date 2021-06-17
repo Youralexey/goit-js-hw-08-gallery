@@ -39,8 +39,7 @@ function createGalleryCard(images) {
 
 refs.gallery.addEventListener("click", onGalleryClick);
 refs.btn.addEventListener("click", onClickBtnClose);
-refs.overlay.addEventListener("click", onBackdropEvent);
-
+refs.overlay.addEventListener("click", onClickBtnClose);
 
 
 function onGalleryClick(event) {
@@ -60,14 +59,6 @@ function onClickBtnClose(event) {
   refs.lightbox__image.src = '';
   refs.lightbox__image.alt = '';
   window.removeEventListener('keydown', ESCclose);
-};
-
-function onBackdropEvent(event) {
-  if (event.currentTarget === event.target) {
-    console.log(event.currentTarget)
-    onClickBtnClose()
-  };
-  
 };
 
  function ESCclose(event) {
